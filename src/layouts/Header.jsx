@@ -46,8 +46,7 @@ function Header() {
     { id: 1, name: "Thông tin khách hàng", link: "/thong-tin-khach-hang.html" },
     { id: 2, name: "Lịch sử đặt hàng", link: "/lich-su.html" },
     { id: 3, name: "Quá trình giao hàng", link: "/gia-hang.html" },
-    { id: 4, name: "Mã giảm giá", link: "/ma-giam-gia.html" },
-    { id: 5, name: "Đăng xuất", link: "/", logout: true },
+    { id: 4, name: "Đăng xuất", link: "/", logout: true },
   ];
   const userInfos = sessionStorage.getItem("userInfo");
   const dataParse = JSON.parse(userInfos);
